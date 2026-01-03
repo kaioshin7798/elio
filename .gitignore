@@ -1,0 +1,57 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Virtual environments =====
+.env
+.venv
+venv/
+ENV/
+env/
+.env.*
+
+# ===== Packaging =====
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== Unit test / coverage =====
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ===== Logs =====
+*.log
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== mypy / type checking =====
+.mypy_cache/
+.pytype/
+.pyre/
+
+# ===== Ruff / Black =====
+.ruff_cache/
+
+# ===== Secrets =====
+*.pem
+*.key
+
+output/
+data/
